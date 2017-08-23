@@ -4,7 +4,7 @@ FROM resin/rpi-raspbian:latest
 
 MAINTAINER admin@byte13.org
 
-# Install NodeJS packages and usefull utilities
+# Install usefull utilities
 RUN apt-get update && \
     apt-get -y dist-upgrade
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install apt-utils curl wget sudo unzip iputils-ping dnsutils net-tools nmap build-essential python-rpi.gpio git
