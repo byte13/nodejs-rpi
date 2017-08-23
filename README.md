@@ -1,7 +1,7 @@
 # nodejs-rpi
 NodeJS on Raspbian
 
-This Docker file creates adds NodeJS on resin/rpi-raspbian:latest
+This Docker file adds NodeJS on resin/rpi-raspbian:latest
 as well as a few utilities.
 
 According to https://forums.docker.com/t/automated-build-raspberry-pi-based-image-on-docker-hub/4155/7
