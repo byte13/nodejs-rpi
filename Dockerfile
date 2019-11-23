@@ -12,10 +12,10 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install apt-utils curl wget sudo u
 #
 RUN cd /tmp
 #RUN wget https://nodejs.org/dist/v6.11.3/node-v6.11.3-linux-armv7l.tar.xz  && tar xvf node-v6.11.3-linux-armv7l.tar.xz
-RUN wget https://nodejs.org/dist/v9.5.0/node-v9.5.0-linux-armv7l.tar.gz && \
-    tar xvf node-v9.5.0-linux-armv7l.tar.gz && \
-    rm node-v9.5.0-linux-armv7l.tar.gz && \
-    cd node-v9.5.0-linux-armv7l && \
+RUN wget https://nodejs.org/dist/v9.9.0/node-v9.9.0-linux-armv7l.tar.gz && \
+    tar xvf node-v9.9.0-linux-armv7l.tar.gz && \
+    rm node-v9.9.0-linux-armv7l.tar.gz && \
+    cd node-v9.9.0-linux-armv7l && \
     cp -R * /usr/local/ && \
-    rm -rf node-v9.5.0-linux-armv7l
+    rm -rf node-v9.9.0-linux-armv7l
 
