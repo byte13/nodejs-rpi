@@ -6,7 +6,7 @@ FROM balenalib/raspberry-pi:latest
 # Install usefull utilities
 RUN apt-get update && \
     apt-get -y dist-upgrade
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install apt-utils curl wget  libudev-dev sudo unzip iproute2 iputils-ping dnsutils net-tools nmap build-essential python-rpi.gpio python-picamera git
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install apt-utils curl wget libudev-dev sudo unzip iproute2 iputils-ping dnsutils net-tools nmap build-essential python-rpi.gpio python-picamera git
 
 # 
 # Install NodeJS from ARM tarball
