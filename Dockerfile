@@ -1,6 +1,7 @@
 # References :
 # https://raspberrypi.stackexchange.com/questions/48303/install-nodejs-for-all-raspberry-pi#48313
-FROM resin/rpi-raspbian:latest
+# FROM resin/rpi-raspbian:latest
+FROM balenalib/raspberry-pi:latest
 
 # Install usefull utilities
 RUN apt-get update && \
